@@ -1,4 +1,4 @@
-function validPassword(password, username){
+function isValidPassword(password, username){
     if (
         password.length < 8 ||
         password.includes(" ") ||
@@ -13,4 +13,4 @@ function validPassword(password, username){
     }
 }
 
-console.log(validPassword("19970109","dawnmary"));
+console.log(isValidPassword("19970109","dawnmary"));
