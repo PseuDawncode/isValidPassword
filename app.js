@@ -13,4 +13,4 @@ function isValidPassword(password, username){
     }
 }
 
-console.log(isValidPassword("19970109","dawnmary"));
+console.log(isValidPassword("199 70 109","dawnmary"));
